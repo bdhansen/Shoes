@@ -1,0 +1,199 @@
+          Product   Subsidiary Stores   Sales Return cust_id id_orders entry_date OL_balance        product
+1    Men's Casual  Addis Ababa      4  118036   2284    1110       100     1/8/15        100   Men's Casual
+2     Men's Dress  Addis Ababa      7  136273   2433    1110       101     1/9/15        150    Men's Dress
+3          Sandal  Addis Ababa     10  204284   1861    1110       102    1/10/15        300         Sandal
+4         Slipper  Addis Ababa     14  279795   1771    1110       103    1/11/15        200        Slipper
+5      Sport Shoe  Addis Ababa      4   16634     79    1110       104    1/12/15        500     Sport Shoe
+6    Men's Casual  Addis Ababa      2   98641    940    1111       105    1/13/15         90  Women's Dress
+7     Men's Dress  Addis Ababa     12  311017   3233    1111       106    1/14/15         40           Boot
+8          Sandal      Algiers     21   73737    710    1111       107    1/15/15         80   Men's Casual
+9         Slipper      Algiers      4  100982   2221    1111       108    1/16/15        900    Men's Dress
+10    Men's Dress      Algiers     13  428575   3621    1111       109    1/17/15        140         Sandal
+11         Sandal      Algiers     25   84447   1530    1111       110    1/18/15        120        Slipper
+12        Slipper      Algiers     17  248198   1823    1112       111    1/19/15        150     Sport Shoe
+13     Sport Shoe      Algiers      9    9372    168    1112       112    1/20/15        300 Women's Casual
+14  Women's Dress      Algiers     12  266805   2690    1112       113     1/9/15        200   Men's Casual
+15           Boot        Cairo     20   18965    229    1112       114    1/10/15        300    Men's Dress
+16   Men's Casual        Cairo     25 1063251   9424    1113       115    1/11/15        140         Sandal
+17    Men's Dress        Cairo      5   45962     97    1113       116    1/12/15        120        Slipper
+18         Sandal        Cairo      9   50430    598    1113       117    1/13/15        150     Sport Shoe
+19        Slipper        Cairo      9   54117   1216    1113       118    1/14/15        300  Women's Dress
+20     Sport Shoe        Cairo      3   20815     44    1113       119    1/15/15        200           Boot
+21 Women's Casual        Cairo     14  940851  10124    1114       120    1/16/15        300   Men's Casual
+22  Women's Dress        Cairo      3   51145    745    1114       121    1/17/15         23    Men's Dress
+23           Boot Johannesburg     14   33011    483    1114       122     2/1/15        150         Sandal
+24         Sandal Johannesburg     13   63003    809    1114       123     2/2/15        300        Slipper
+25        Slipper Johannesburg     12  130025   1565    1115       124     2/3/15        200     Sport Shoe
+26     Sport Shoe Johannesburg      8   29368    139    1115       125     2/4/15        300 Women's Casual
+27  Women's Dress Johannesburg      4  120127    966    1115       126     2/5/15        200     Sport Shoe
+28           Boot     Khartoum     24  105370    700    1115       127     2/6/15        130 Women's Casual
+29   Men's Casual     Khartoum      1   16230    478    1115       128     2/7/15        300  Women's Dress
+30    Men's Dress     Khartoum      3   51132   1177    1115       129     2/8/15        400           Boot
+31         Sandal     Khartoum     18   81825   1281    1115       130     2/9/15        299     Sport Shoe
+32        Slipper     Khartoum     11  143015   1573    1115       131    2/10/15        140 Women's Casual
+33     Sport Shoe     Khartoum      7   27041     84    1116       132    2/11/15        120  Women's Dress
+34 Women's Casual     Khartoum      1   30727    384    1116       133    2/12/15        150           Boot
+35  Women's Dress     Khartoum      6  132679   1374    1116       134    2/13/15        300   Men's Casual
+36           Boot     Kinshasa     16   70736    553    1116       135    2/14/15        200    Men's Dress
+37    Men's Dress     Kinshasa      5   95663   1699    1116       136    2/15/15        300         Sandal
+38         Sandal     Kinshasa     10  104438    611    1116       137    2/16/15        300        Slipper
+39        Slipper     Kinshasa     11  183937   1440    1117       138    2/17/15        200    Men's Dress
+40     Sport Shoe     Kinshasa     10   27998    162    1117       139    2/18/15        400         Sandal
+41 Women's Casual     Kinshasa      1   21363    400    1117       140    2/19/15        200        Slipper
+42  Women's Dress     Kinshasa      3   87149    717    1117       141    2/20/15         20    Men's Dress
+43           Boot       Luanda      8   51572    325    1117       142    2/21/15        150  Women's Dress
+44   Men's Casual       Luanda      3  149864   1701    1117       143    2/22/15        300           Boot
+45    Men's Dress       Luanda      2   67247    705    1117       144    2/23/15        200   Men's Casual
+46         Sandal       Luanda      9   19900    657    1118       145    2/24/15        150    Men's Dress
+47        Slipper       Luanda      5   97060    701    1118       146    2/25/15        300         Sandal
+48     Sport Shoe       Luanda      2    3247     29    1118       147     2/1/15        200        Slipper
+49  Women's Dress       Luanda      1   47387    210    1118       148     2/1/14        400     Sport Shoe
+50           Boot      Nairobi     25   66017    844    1118       149     2/2/14        200 Women's Casual
+51    Men's Dress      Nairobi      1   20877    363    1119       150     2/3/14         20 Women's Casual
+52         Sandal      Nairobi     19   47406   1175    1119       151     2/4/14        150     Sport Shoe
+53        Slipper      Nairobi     12   87438   1320    1119       152     2/5/14        300 Women's Casual
+54     Sport Shoe      Nairobi     10   11328    174    1119       153     2/6/14        200  Women's Dress
+55  Women's Dress      Nairobi      3   62740    678    1119       154     2/7/14        500           Boot
+56           Boot      Bangkok      1    9576     80    1120       155     2/8/14        140           Boot
+57    Men's Dress      Bangkok      1   20831     52    1120       156     2/9/14        120           Boot
+58         Sandal      Bangkok      1   15087    120    1120       157    2/10/14        150     Sport Shoe
+59        Slipper      Bangkok      1   16075    127    1120       158    2/11/14        300  Women's Dress
+60 Women's Casual      Bangkok      1   16251    185    1120       159    2/12/14        200           Boot
+61           Boot        Seoul     17  160589   1296    1120       160    2/13/14        300   Men's Casual
+62   Men's Casual        Seoul      1    2176    833    1121       161    2/14/14        150    Men's Dress
+63    Men's Dress        Seoul      7  251803   2443    1121       162    2/15/14        300         Sandal
+64         Sandal        Seoul      3   21483    105    1121       163     7/1/13        200        Slipper
+65        Slipper        Seoul     21  469007   2941    1121       164     7/2/13        300     Sport Shoe
+66     Sport Shoe        Seoul      1     455     10    1121       165     7/3/13        300 Women's Casual
+67 Women's Casual        Seoul      2   36576    790    1122       166     7/4/13        100    Men's Dress
+68  Women's Dress        Seoul      7  140628   1891    1122       167     7/5/13        140         Sandal
+69     Sport Shoe        Tokyo      1   15602     22    1122       168     7/6/13        120        Slipper
+70           Boot      Calgary      8   63280    472    1122       169     7/7/13        150     Sport Shoe
+71    Men's Dress      Calgary      1   39663    353    1123       170     7/8/13        300 Women's Casual
+72         Sandal      Calgary      7   15838    147    1123       171     7/9/13        200  Women's Dress
+73        Slipper      Calgary      2   48061    253    1123       172    7/10/13        300           Boot
+74     Sport Shoe      Calgary      9   38059    264    1123       173    10/1/12        300           Boot
+75  Women's Dress      Calgary      2   54677    488    1123       174    10/2/12        200   Men's Casual
+76           Boot     Montreal     25  240132   1472    1123       175    10/3/12        100    Men's Dress
+77   Men's Casual     Montreal      3  187155   2241    1123       176    10/4/12        900         Sandal
+78    Men's Dress     Montreal     11  355170   3713    1124       177    10/5/12        300        Slipper
+79         Sandal     Montreal      7   18382    122    1124       178    10/6/12        200           Boot
+80        Slipper     Montreal     24  500053   3395    1124       179    10/7/12         60     Sport Shoe
+81     Sport Shoe     Montreal     31  178128   1129    1124       180    10/8/12        200 Women's Casual
+82 Women's Casual     Montreal      2   34808    832    1124       181    10/9/12        150  Women's Dress
+83  Women's Dress     Montreal     12  483637   2880    1125       182   10/10/12        300           Boot
+84           Boot       Ottawa      5   28162    377    1125       183   10/11/12        200           Boot
+85   Men's Casual       Ottawa      1   29249    578    1125       184    12/1/15        400   Men's Casual
+86         Sandal       Ottawa      2    1727     27    1125       185    12/2/15        140    Men's Dress
+87        Slipper       Ottawa     10   89576   1397    1125       186    12/3/15        120         Sandal
+88     Sport Shoe       Ottawa      6   15007    204    1126       187    12/4/15        150        Slipper
+89 Women's Casual       Ottawa      1   46064    427    1126       188    12/5/15        300     Sport Shoe
+90  Women's Dress       Ottawa      4   84378    939    1126       189    12/6/15        200 Women's Casual
+91           Boot      Toronto     16  149118    994    1126       190     4/1/15        300  Women's Dress
+92   Men's Casual      Toronto      2   20811   1401    1126       191     4/2/15        100           Boot
+93    Men's Dress      Toronto      2   84690    806    1127       192     4/3/15        150           Boot
+94         Sandal      Toronto      2    6763     38    1127       193     4/4/15        300   Men's Casual
+95        Slipper      Toronto     14  302074   1908    1127       194     6/1/11        200    Men's Dress
+96     Sport Shoe      Toronto     29  164113    913    1127       195     6/2/11        455         Sandal
+97 Women's Casual      Toronto      4  149239   1700    1127       196     6/3/11        600        Slipper
+98  Women's Dress      Toronto      7  165711   1967    1128       197     6/4/11         30           Boot
+
+shrink Country
+1   1180.36  Africa
+2   1362.73  Africa
+3   2042.84  Africa
+4   2797.95  Africa
+5    166.34  Africa
+6    986.41  Africa
+7   3110.17  Africa
+8    737.37  Africa
+9   1009.82  Africa
+10  4285.75  Africa
+11   844.47  Africa
+12  2481.98  Africa
+13    93.72  Africa
+14  2668.05  Africa
+15   189.65  Africa
+16 10632.51  Africa
+17   459.62  Africa
+18   504.30  Africa
+19   541.17  Africa
+20   312.23  Africa
+21 14112.77  Africa
+22   767.18  Africa
+23   495.17  Africa
+24   945.05  Africa
+25  1950.38  Africa
+26   440.52  Africa
+27  1801.91  Africa
+28  1580.55  Africa
+29   243.45  Africa
+30   766.98  Africa
+31  1227.38  Africa
+32  2145.23  Africa
+33   405.62  Africa
+34   460.91  Africa
+35  1990.19  Africa
+36  1061.04  Africa
+37  1434.95  Africa
+38  1566.57  Africa
+39  2759.06  Africa
+40   419.97  Africa
+41   320.45  Africa
+42   784.34  Africa
+43   464.15  Africa
+44  1348.78  Africa
+45   605.22  Africa
+46   179.10  Africa
+47   873.54  Africa
+48    29.22  Africa
+49   426.48  Africa
+50   594.15  Africa
+51   187.89  Africa
+52   426.65  Africa
+53   786.94  Africa
+54   101.95  Africa
+55   564.66  Africa
+56    86.18    Asia
+57   187.48    Asia
+58   135.78    Asia
+59   144.68    Asia
+60   146.26    Asia
+61  1445.30    Asia
+62    19.58    Asia
+63  2266.23    Asia
+64   193.35    Asia
+65  4221.06    Asia
+66     4.10    Asia
+67   329.18    Asia
+68  1265.65    Asia
+69   202.83    Asia
+70   822.64  Canada
+71   515.62  Canada
+72   205.89  Canada
+73   624.79  Canada
+74   494.77  Canada
+75   710.80  Canada
+76  3121.72  Canada
+77  2433.02  Canada
+78  4617.21  Canada
+79   238.97  Canada
+80  6500.69  Canada
+81  2315.66  Canada
+82   452.50  Canada
+83  6287.28  Canada
+84   366.11  Canada
+85   380.24  Canada
+86    22.45  Canada
+87  1164.49  Canada
+88   195.09  Canada
+89   921.28  Canada
+90  1687.56  Canada
+91  2982.36  Canada
+92   416.22  Canada
+93  1693.80  Canada
+94   135.26  Canada
+95  6041.48  Canada
+96  3282.26  Canada
+97  2984.78  Canada
+98  3314.22  Canada
