@@ -1,0 +1,3 @@
+barplot(Vcountries_sales, xlab="Country", ylab="Total Sales (millions)", ylim = c(0, 8), col = c("darkblue", "red", "yellow"))
+title("Total Sales by Country")
+legend("topright", c("Africa", "Asia", "Canada"), col = c("darkblue", "red", "yellow"), pch = (16))
