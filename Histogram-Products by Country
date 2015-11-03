@@ -1,2 +1,3 @@
 qplot(x = Country, data = shoes) +
   +     facet_wrap(~Product, ncol = 4)
+qplot + geom_histogram(color="darkblue", fill="lightblue")
