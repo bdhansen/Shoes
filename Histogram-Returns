@@ -1,0 +1,4 @@
+R_plot = qplot(x = Return, data = shoes, binwidth = 250, xlim = c(0, 7000))
+R_plot = ggplot(data=shoes, aes(Return)) + geom_histogram(breaks=seq(0, 8000, by =250),                             col="red", 
+        + aes(fill=..count..)) +
+        + scale_fill_gradient("Count", low = "black", high = "red")
