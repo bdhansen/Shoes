@@ -1,5 +1,5 @@
 qplot(x = Country, data = shoes) +
   +     facet_wrap(~Product, ncol = 4)
 qplot + geom_bar(aes(fill=Country)) +
-+             scale_x_discrete(drop=FALSE) +
-+            scale_fill_manual(values=rep(c("red", "blue", "springgreen4"), length=9))
++           scale_x_discrete(drop=FALSE) +
++           scale_fill_manual(values=rep(c("red", "blue", "springgreen4"), length=9))
