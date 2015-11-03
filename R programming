@@ -1,4 +1,13 @@
- shoes = read.csv("/Users/brittanyhansen/desktop/newshoes.csv") summary(shoes$Sales) cor.test(shrink, Return) max(Sales) sum(Sales)
+shoes = read.csv("/Users/brittanyhansen/desktop/newshoes.csv")
+summary(shoes$Sales)
+
+table(shoes$Country)
+by(shoes$Product, shoes$Subsidiary, summary)
+
+cor.test(shrink, Return) 
+ 
+ 
+shoes = read.csv("/Users/brittanyhansen/desktop/newshoes.csv") summary(shoes$Sales) cor.test(shrink, Return) max(Sales) sum(Sales)
 
 m_boot_sales = mean(shoes[which(shoes$Product=='Boot'), 4]) m_menscas_sales = mean(shoes[which(shoes$Product=="Men's Casual"), 4]) m_slipper_sales = mean(shoes[which(shoes$Product=="Slipper"), 4]) m_sportshoe_sales = mean(shoes[which(shoes$Product=="Sport Shoe"), 4]) m_sandal_sales = mean(shoes[which(shoes$Product=="Sandal"), 4]) m_womansdress_sales = mean(shoes[which(shoes$Product=="Women's Dress"), 4]) m_womanscasual_sales = mean(shoes[which(shoes$Product=="Women's Casual"), 4])
 
