@@ -1,4 +1,3 @@
-R_plot = qplot(x = Return, data = shoes, binwidth = 250, xlim = c(0, 7000))
 R_plot = ggplot(data=shoes, aes(Return)) + geom_histogram(breaks=seq(0, 5000, by =300),                             
   +     col="red", 
   +     aes(fill=..count..)) +
