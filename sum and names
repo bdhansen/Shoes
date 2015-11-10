@@ -1,0 +1,32 @@
+
+> names(shoes)
+ [1] "Product"       "Subsidiary"    "Stores"        "Sales"         "Return"       
+ [6] "cust_id"       "id_orders"     "entry_date"    "OL_balance"    "product"      
+[11] "shrink"        "Country"       "num_OL_orders"
+
+> summary(shoes)
+          Product         Subsidiary     Stores          Sales             Return       
+ Sandal       :15   Cairo      : 8   Min.   : 1.00   Min.   :    455   Min.   :   10.0  
+ Slipper      :15   Khartoum   : 8   1st Qu.: 2.00   1st Qu.:  22872   1st Qu.:  255.8  
+ Sport Shoe   :14   Montreal   : 8   Median : 7.00   Median :  63142   Median :  767.5  
+ Men's Dress  :13   Seoul      : 8   Mean   : 8.51   Mean   : 119175   Mean   : 1180.1  
+ Boot         :12   Toronto    : 8   3rd Qu.:12.00   3rd Qu.: 142418   3rd Qu.: 1556.2  
+ Women's Dress:12   Addis Ababa: 7   Max.   :31.00   Max.   :1063251   Max.   :10124.0  
+ (Other)      :17   (Other)    :51                                                      
+    cust_id       id_orders       entry_date   OL_balance              product  
+ Min.   :1110   Min.   :100.0   1/10/15: 2   Min.   : 20.0   Boot          :17  
+ 1st Qu.:1115   1st Qu.:124.2   1/11/15: 2   1st Qu.:142.5   Men's Dress   :13  
+ Median :1118   Median :148.5   1/12/15: 2   Median :200.0   Sport Shoe    :13  
+ Mean   :1119   Mean   :148.5   1/13/15: 2   Mean   :230.7   Sandal        :12  
+ 3rd Qu.:1123   3rd Qu.:172.8   1/14/15: 2   3rd Qu.:300.0   Slipper       :12  
+ Max.   :1128   Max.   :197.0   1/15/15: 2   Max.   :900.0   Women's Casual:11  
+                                (Other):86                   (Other)       :20  
+     shrink          Country   num_OL_orders  
+ Min.   :    4.1   Africa:55   Min.   :0.000  
+ 1st Qu.:  338.4   Asia  :14   1st Qu.:1.000  
+ Median :  767.1   Canada:29   Median :1.000  
+ Mean   : 1492.4               Mean   :1.878  
+ 3rd Qu.: 1913.3               3rd Qu.:3.000  
+ Max.   :14112.8               Max.   :6.000  
+
+
