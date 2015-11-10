@@ -29,4 +29,12 @@
  3rd Qu.: 1913.3               3rd Qu.:3.000  
  Max.   :14112.8               Max.   :6.000  
 
-
+> levels(Country)
+[1] "Africa" "Asia"   "Canada"
+> levels(Product)
+[1] "Boot"           "Men's Casual"   "Men's Dress"    "Sandal"         "Slipper"        "Sport Shoe"    
+[7] "Women's Casual" "Women's Dress" 
+> levels(Subsidiary)
+ [1] "Addis Ababa"  "Algiers"      "Bangkok"      "Cairo"        "Calgary"      "Johannesburg"
+ [7] "Khartoum"     "Kinshasa"     "Luanda"       "Montreal"     "Nairobi"      "Ottawa"      
+[13] "Seoul"        "Tokyo"        "Toronto" 
