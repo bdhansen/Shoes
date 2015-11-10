@@ -1,0 +1,3 @@
+freqPoly = qplot(x = shoes$shrink, y = ..count../sum(..count..), data = subset(shoes, !is.na(shoes$Country)), 
+    binwidth = 300, geom = 'freqpoly', color = shoes$Country) + scale_x_continuous(lim = c(0, 5000), 
+    breaks = seq(0, 5000, 1000))
